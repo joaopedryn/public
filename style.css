@@ -1,0 +1,136 @@
+
+/* General Body Styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Light Theme */
+body.light {
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+}
+
+/* Dark Theme */
+body.dark {
+  background-color: #000;
+  color: #f5f5f7;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Typography */
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1DB954; /* Accent color */
+}
+
+p {
+  font-size: 18px;
+  color: #86868b;
+}
+
+/* Links and Buttons */
+a.button, button {
+  display: inline-block;
+  padding: 15px 35px;
+  border-radius: 980px; /* Apple-style pill shape */
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+a.button.primary, button.primary {
+  background-color: #007aff; /* Apple blue */
+  color: #fff;
+  border: none;
+}
+
+a.button.primary:hover, button.primary:hover {
+  background-color: #0071e3;
+}
+
+a.button.whatsapp {
+    background-color: #25D366;
+    color: white;
+}
+
+a.button.whatsapp:hover {
+    background-color: #1da851;
+}
+
+
+/* Video */
+video {
+  width: 100%;
+  max-width: 640px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Form */
+form {
+  margin-top: 30px;
+}
+
+input[type="text"], input[type="email"] {
+  width: 80%;
+  max-width: 400px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #d2d2d7;
+  border-radius: 12px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #1d1d1f;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder {
+  color: #86868b;
+}
+
+/* Checkout Page Specifics */
+.checkout-box {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.checkout-box h1 {
+    font-size: 32px;
+}
+
+.pix-key {
+  font-size: 20px;
+  font-weight: 600;
+  color: #d70000; /* Red for emphasis */
+  background-color: #f5f5f7;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
